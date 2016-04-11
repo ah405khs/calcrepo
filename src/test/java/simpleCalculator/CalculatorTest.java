@@ -29,5 +29,9 @@ public class CalculatorTest {
 		Calculator calc = new Calculator();
 		assertEquals(-1, calc.decrease());
 	}
-
+	@Test
+	public void testIncrease(){
+		Calculator calc = new Calculator();
+		assertEquals(1,calc.increase());
+	}
 }

@@ -19,4 +19,7 @@ public class Calculator {
 	public int decrease(){
 		return --result;
 	}
+	public int increase(){
+		return ++result;
+	}
 }
