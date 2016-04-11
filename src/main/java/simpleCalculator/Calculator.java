@@ -16,4 +16,7 @@ public class Calculator {
 	public int getResult() {
 		return result;
 	}
+	public int decrease(){
+		return --result;
+	}
 }
